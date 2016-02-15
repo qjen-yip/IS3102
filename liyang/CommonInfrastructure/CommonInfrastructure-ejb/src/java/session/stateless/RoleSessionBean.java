@@ -58,6 +58,7 @@ public class RoleSessionBean {
 
     public Long addNewRole(String roleName, boolean value1, boolean value2, boolean value3)  {
             Role role = new Role();
+            listOfPrivileges = ".";
             role.setRoleName(roleName);
             role.setPrivilege1(value1);
             role.setPrivilege2(value2);
